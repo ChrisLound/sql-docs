@@ -95,6 +95,7 @@ The parameters associated with the dmaDataCollector function are described in th
 |Parameter  |Description |
 |---------|---------|
 |**getServerListFrom** | Your inventory. Possible values are **SqlServer** and **CSV**.<br/>For more info, see [Create an inventory of SQL Servers](#create-inventory). |
+|**csvPath** | The path to your inventory csv file.  Used in combination with **getServerListFrom** and required only when the **CSV** option is specified. |
 |**serverName**	| The SQL Server instance name of the inventory when using **SqlServer** in the **getServerListFrom** parameter. |
 |**databaseName** | The database hosting the inventory table. |
 |**AssessmentName**	| The name of the DMA assessment. |
